@@ -113,8 +113,8 @@
 				'height': 'auto',
 				'position': 'absolute',
 				'left': '50%',
-				'top': '50%',
-				'transform': 'translate(-50%,-50%)'
+				'top': '0',
+				'transform': 'translate(-50%,0)'
 			});
 			if( el_settings.fullScreen ) {
 				$container.css({
